@@ -72,9 +72,12 @@ Build app: `$ sbt clean compile stage`
 
 Grab app archive and startup locally: `$ heroku local`
 
-#### Deploy and run on Heroku
+### Deploy and run on Heroku
 
-Push to Heroku to deploy: 
+Push to Heroku to deploy:
+
+#### If git not init:
+
 ```
 $ cd chapter-up-and-running
 $ git init
@@ -112,9 +115,7 @@ To https://git.heroku.com/thawing-oasis-40751.git
 
 ```
 
-Existing Git repository
-For existing repositories, simply add the heroku remote
-
+#### For existing repositories, simply add the heroku remote 
 `$ heroku git:remote -a thawing-oasis-40751`
 
 #### Testing the remote heroku-app
