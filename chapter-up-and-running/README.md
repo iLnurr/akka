@@ -1,4 +1,4 @@
-###Run app
+### Run app
 `$ cd chapter-up-and-running`
 
 `$ sbt clean compile`
@@ -29,7 +29,7 @@ The parameter is transformed into a JSON body. Notice the parameter uses := inst
 
 `$ http GET localhost:5000/events`
 
-###Into the cloud
+### Into the cloud
 
 Install Heroku toolbelt from https://toolbelt.heroku.com/
 
@@ -72,7 +72,7 @@ Build app: `$ sbt clean compile stage`
 
 Grab app archive and startup locally: `$ heroku local`
 
-####Deploy and run on Heroku
+#### Deploy and run on Heroku
 
 Push to Heroku to deploy: 
 ```
@@ -117,7 +117,7 @@ For existing repositories, simply add the heroku remote
 
 `$ heroku git:remote -a thawing-oasis-40751`
 
-####Testing the remote heroku-app
+#### Testing the remote heroku-app
 
 `$ http POST thawing-oasis-40751.herokuapp.com/events/RHCP tickets:=250`
 
