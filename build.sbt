@@ -1,5 +1,5 @@
 
-name := "all"
+name := "akka"
 
 version := "1.0"
 
