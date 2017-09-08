@@ -98,14 +98,14 @@ simple ! "Hello REMOTE Backend"
 
 ## Run app
 
-####First terminal
+#### First terminal
 ```
 cd chapter-remoting
 sbt run
 ``` 
 then choose 1
 
-####Second terminal
+#### Second terminal
 ```
 cd chapter-remoting
 sbt run
