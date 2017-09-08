@@ -114,5 +114,7 @@ then choose 3
 
 #### Testing in new terminal remote apps (backend and frontend) with httpie
 
-`http POST localhost:5000/events/RHCP tickets:=10`
-`http GET localhost:5000/events`
+```
+http POST localhost:5000/events/RHCP tickets:=10
+http GET localhost:5000/events
+```
